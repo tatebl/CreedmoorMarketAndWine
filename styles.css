@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     font-family: 'Crimson Pro', serif;
     color: #222;
+    background-color: #EAF0F3;
 }
 .navbar {
     padding: .4rem;
@@ -13,7 +14,7 @@ html, body {
     padding-right: 25px;
 }
 .nav-link {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .navbar-brand {
 
