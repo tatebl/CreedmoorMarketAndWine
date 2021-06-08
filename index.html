@@ -9,13 +9,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Creedmoor Market & Wine Shop</a>              <!--add logo here-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Wines</a>
@@ -38,7 +38,7 @@
     </nav>
 
     <!-- PHOTO SLIDER -->
-
+    <div class="container-fluid padding">
     <div id="slides" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -57,7 +57,7 @@
         </div>
     </div>
     </div>
-
+    </div>
 
     <!-- ABOUT US -->
     
@@ -110,6 +110,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row padding">
         <div class="col-md-4">
             <div class="card">
                 <img class="card-img-top" src="img/barCardSample.png">           <!-- Bar card -->
@@ -144,6 +146,7 @@
     <!--Military Wall of Honor Section-->
 
     <div class="container-fluid padding">
+    <hr class="my-4">
     <div class="row padding">
         <div class="col-md-6">
             <h2>Military Wall of Honor</h2>

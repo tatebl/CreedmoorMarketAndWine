@@ -1,1 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,600;1,900&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Crimson Pro', serif;
+    color: #222;
+}
+.navbar {
+    padding: .4rem;
+}
+.navbar-nav li {
+    padding-right: 25px;
+}
+.nav-link {
+    font-size: 1.1em;
+}
+.navbar-brand {
+
+    font-style: italic;
+    font-size: 1.6em;
+    padding-left: .8rem;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.jumbotron {
+    padding: 1rem;
+}
+.card img {
+    height:100%;
+    width: 100%;
+}
+.social a {
+    font-size: 4rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width:80%;
+}
