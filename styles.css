@@ -51,13 +51,15 @@ html, body {
 }
 .fa-facebook{
     color: #3b5998;
-    
+}
+.fa-facebook:hover {
+    color: #83c9f2
 }
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
 }
 hr.light {
     border-top: 1px solid #d5d5d5;
