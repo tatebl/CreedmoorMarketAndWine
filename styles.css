@@ -19,8 +19,10 @@ html, body {
 .display-5 {
     font-style: italic;
 }
+h4 {
+    font-style: italic;
+}
 .navbar-brand {
-
     font-style: italic;
     font-size: 1.6em;
     padding-left: .8rem;
@@ -38,7 +40,8 @@ html, body {
     width: 100%;
 }
 .card {
-    background-color: #faf8f5 ;
+    background-color: #faf8f5;
+    border-radius: 1.5%;
 }
 .card-img-top {
     width: 100%;
