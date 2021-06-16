@@ -40,8 +40,10 @@ h4 {
     width: 100%;
 }
 .card {
-    background-color: #faf8f5;
+    background-color: #ebebeb;  /*faf8f5*/ /*e6e6e6*/
+    padding: 1rem;
     border-radius: 1.5%;
+    border
 }
 .card-img-top {
     width: 100%;
